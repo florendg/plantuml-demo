@@ -2,16 +2,13 @@
 A demonstration on integration of diagrams in your mark down.
 
 <div hidden>
+
 ```
-@startuml demoDiagram
-
-Alice -> Bob: Hello
-Bob -> Alice: Hi!
-
+@startuml
+class Person
 @enduml
 ```
+
 </div>
 
-![](demoDiagram.svg)
-
-This should work
+![een plaatje](demoDiagram.svg)
