@@ -1,0 +1,22 @@
+@startuml
+
+class Address {
+   - street:String
+   - number:int
+   - city:String
+}
+
+note left of Address
+    Dit is een korte toelichting
+    En dat mag ook meerdere regels
+    beslaan.
+end note
+
+entity Person {
+    -firstName:String
+    -lastName:String
+    printAddress():String
+}
+
+Person -left- Address :has >
+@enduml
