@@ -1,14 +1,14 @@
 # Readme
 A demonstration on integration of diagrams in your mark down.
 
-<div hidden>
 
+<!--
 ```
-@startuml
+@startuml demoDiagram
 class Person
 @enduml
 ```
-
-</div>
+-->
+Dit is de text
 
 ![een plaatje](demoDiagram.svg)
